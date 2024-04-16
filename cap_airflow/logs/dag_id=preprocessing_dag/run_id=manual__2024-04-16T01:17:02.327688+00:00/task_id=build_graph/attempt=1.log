@@ -1,0 +1,62 @@
+[2024-04-15T21:17:25.255-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T21:17:25.273-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_dag.build_graph manual__2024-04-16T01:17:02.327688+00:00 [queued]>
+[2024-04-15T21:17:25.288-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_dag.build_graph manual__2024-04-16T01:17:02.327688+00:00 [queued]>
+[2024-04-15T21:17:25.289-0400] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-15T21:17:25.303-0400] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): build_graph> on 2024-04-16 01:17:02.327688+00:00
+[2024-04-15T21:17:25.309-0400] {standard_task_runner.py:63} INFO - Started process 54441 to run task
+[2024-04-15T21:17:25.315-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'preprocessing_dag', 'build_graph', 'manual__2024-04-16T01:17:02.327688+00:00', '--job-id', '287', '--raw', '--subdir', 'DAGS_FOLDER/preprocessing_dag.py', '--cfg-path', '/var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T/tmpbhlscx6c']
+[2024-04-15T21:17:25.324-0400] {standard_task_runner.py:91} INFO - Job 287: Subtask build_graph
+[2024-04-15T21:17:25.385-0400] {task_command.py:426} INFO - Running <TaskInstance: preprocessing_dag.build_graph manual__2024-04-16T01:17:02.327688+00:00 [running]> on host manis-macbook-air.local
+[2024-04-15T21:17:25.451-0400] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='preprocessing_dag' AIRFLOW_CTX_TASK_ID='build_graph' AIRFLOW_CTX_EXECUTION_DATE='2024-04-16T01:17:02.327688+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-16T01:17:02.327688+00:00'
+[2024-04-15T21:17:25.453-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-15T21:17:25.477-0400] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.11.6, Platform: macOS-14.2.1-arm64-arm-64bit
+[2024-04-15T21:17:25.479-0400] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-04-15T21:17:26.262-0400] {cursor.py:1032} INFO - query: [USE ROLE ACCOUNTADMIN]
+[2024-04-15T21:17:26.397-0400] {cursor.py:1045} INFO - query execution done
+[2024-04-15T21:17:26.399-0400] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-15T21:17:26.399-0400] {cursor.py:1032} INFO - query: [USE WAREHOUSE CAP_WH]
+[2024-04-15T21:17:26.554-0400] {cursor.py:1045} INFO - query execution done
+[2024-04-15T21:17:26.556-0400] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-15T21:17:26.557-0400] {cursor.py:1032} INFO - query: [SELECT * FROM CAP.DEV.AGGREGATION]
+[2024-04-15T21:17:26.631-0400] {cursor.py:1045} INFO - query execution done
+[2024-04-15T21:17:26.640-0400] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-15T21:17:26.641-0400] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 42, in python_task_2
+    create_graph.main()
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/plugins/create_graph.py", line 58, in main
+    create_graph()
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/plugins/create_graph.py", line 24, in create_graph
+    snowflake_cursor.execute(f"SELECT * FROM CAP.DEV.{snowflake_table}")
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/snowflake/connector/cursor.py", line 1136, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/snowflake/connector/errors.py", line 345, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 003001 (42501): 01b3b26d-0000-5cc5-0000-a10d0003d30a: SQL access control error:
+Insufficient privileges to operate on table 'AGGREGATION'
+[2024-04-15T21:17:26.647-0400] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=preprocessing_dag, task_id=build_graph, execution_date=20240416T011702, start_date=20240416T011725, end_date=20240416T011726
+[2024-04-15T21:17:26.656-0400] {standard_task_runner.py:110} ERROR - Failed to execute job 287 for task build_graph (003001 (42501): 01b3b26d-0000-5cc5-0000-a10d0003d30a: SQL access control error:
+Insufficient privileges to operate on table 'AGGREGATION'; 54441)
+[2024-04-15T21:17:26.667-0400] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-15T21:17:26.696-0400] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-15T21:17:26.699-0400] {local_task_job_runner.py:222} INFO - ::endgroup::

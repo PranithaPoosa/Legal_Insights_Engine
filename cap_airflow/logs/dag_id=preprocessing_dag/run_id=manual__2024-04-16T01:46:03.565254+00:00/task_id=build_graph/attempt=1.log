@@ -1,0 +1,59 @@
+[2024-04-15T21:46:29.316-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T21:46:29.324-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_dag.build_graph manual__2024-04-16T01:46:03.565254+00:00 [queued]>
+[2024-04-15T21:46:29.327-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_dag.build_graph manual__2024-04-16T01:46:03.565254+00:00 [queued]>
+[2024-04-15T21:46:29.328-0400] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-15T21:46:29.335-0400] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): build_graph> on 2024-04-16 01:46:03.565254+00:00
+[2024-04-15T21:46:29.341-0400] {standard_task_runner.py:63} INFO - Started process 55355 to run task
+[2024-04-15T21:46:29.351-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'preprocessing_dag', 'build_graph', 'manual__2024-04-16T01:46:03.565254+00:00', '--job-id', '296', '--raw', '--subdir', 'DAGS_FOLDER/preprocessing_dag.py', '--cfg-path', '/var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T/tmpqhf_0n2n']
+[2024-04-15T21:46:29.353-0400] {standard_task_runner.py:91} INFO - Job 296: Subtask build_graph
+[2024-04-15T21:46:29.390-0400] {task_command.py:426} INFO - Running <TaskInstance: preprocessing_dag.build_graph manual__2024-04-16T01:46:03.565254+00:00 [running]> on host manis-macbook-air.local
+[2024-04-15T21:46:29.489-0400] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='preprocessing_dag' AIRFLOW_CTX_TASK_ID='build_graph' AIRFLOW_CTX_EXECUTION_DATE='2024-04-16T01:46:03.565254+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-16T01:46:03.565254+00:00'
+[2024-04-15T21:46:29.490-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-15T21:46:29.500-0400] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.11.6, Platform: macOS-14.2.1-arm64-arm-64bit
+[2024-04-15T21:46:29.500-0400] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-04-15T21:46:30.177-0400] {cursor.py:1032} INFO - query: [USE ROLE CAP_DEV]
+[2024-04-15T21:46:30.252-0400] {cursor.py:1045} INFO - query execution done
+[2024-04-15T21:46:30.253-0400] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-15T21:46:30.254-0400] {cursor.py:1032} INFO - query: [USE WAREHOUSE CAP_WH]
+[2024-04-15T21:46:30.329-0400] {cursor.py:1045} INFO - query execution done
+[2024-04-15T21:46:30.329-0400] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-15T21:46:30.330-0400] {cursor.py:1032} INFO - query: [SELECT * FROM CAP.DEV.AGGREGATION]
+[2024-04-15T21:46:31.369-0400] {cursor.py:1045} INFO - query execution done
+[2024-04-15T21:46:31.371-0400] {cursor.py:1205} INFO - Number of results in first chunk: 6
+[2024-04-15T21:46:32.185-0400] {logging_mixin.py:188} INFO - 0      [\n  "8650098",\n  "8650649",\n  "8651096",\n ...
+1      [\n  "131998",\n  "571537",\n  "684963",\n  "7...
+2      [\n  "54010",\n  "1155854",\n  "4753359",\n  "...
+3      [\n  "2221489",\n  "8574156",\n  "8653623",\n ...
+4      [\n  "131998",\n  "2509850",\n  "2527903",\n  ...
+                             ...                        
+231    [\n  "2219525",\n  "2219541",\n  "2219595",\n ...
+232    [\n  "4150837",\n  "4152446",\n  "4171957",\n ...
+233    [\n  "53983",\n  "220016",\n  "2529319",\n  "2...
+234    [\n  "571662",\n  "1511222",\n  "1511442",\n  ...
+235    [\n  "131998",\n  "135742",\n  "135912",\n  "6...
+Name: CITES_TO, Length: 236, dtype: object
+[2024-04-15T21:46:32.196-0400] {logging_mixin.py:188} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 236 entries, 0 to 235
+Data columns (total 9 columns):
+ #   Column         Non-Null Count  Dtype 
+---  ------         --------------  ----- 
+ 0   CASE_ID        236 non-null    object
+ 1   CASE_NAME      236 non-null    object
+ 2   DECISION_DATE  236 non-null    object
+ 3   COURT_NAME     236 non-null    object
+ 4   CITATION       236 non-null    object
+ 5   OPINION_TEXT   236 non-null    object
+ 6   AUTHOR         236 non-null    object
+ 7   CATEGORY       236 non-null    object
+ 8   CITES_TO       236 non-null    object
+dtypes: object(9)
+memory usage: 16.7+ KB
+[2024-04-15T21:46:32.197-0400] {logging_mixin.py:188} INFO - None
+[2024-04-15T21:46:32.198-0400] {connection.py:734} INFO - closed
+[2024-04-15T21:46:32.240-0400] {connection.py:740} INFO - No async queries seem to be running, deleting session
+[2024-04-15T21:46:42.556-0400] {python.py:237} INFO - Done. Returned value was: None
+[2024-04-15T21:46:42.558-0400] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-15T21:46:42.563-0400] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=preprocessing_dag, task_id=build_graph, execution_date=20240416T014603, start_date=20240416T014629, end_date=20240416T014642
+[2024-04-15T21:46:42.587-0400] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-15T21:46:42.603-0400] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-15T21:46:42.604-0400] {local_task_job_runner.py:222} INFO - ::endgroup::

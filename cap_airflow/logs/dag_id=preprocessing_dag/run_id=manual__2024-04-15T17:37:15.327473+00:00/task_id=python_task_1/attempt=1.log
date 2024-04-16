@@ -1,0 +1,18 @@
+[2024-04-15T13:37:27.921-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T13:37:27.934-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_dag.python_task_1 manual__2024-04-15T17:37:15.327473+00:00 [queued]>
+[2024-04-15T13:37:27.936-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_dag.python_task_1 manual__2024-04-15T17:37:15.327473+00:00 [queued]>
+[2024-04-15T13:37:27.936-0400] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-15T13:37:27.939-0400] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): python_task_1> on 2024-04-15 17:37:15.327473+00:00
+[2024-04-15T13:37:27.943-0400] {standard_task_runner.py:63} INFO - Started process 48009 to run task
+[2024-04-15T13:37:27.946-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'preprocessing_dag', 'python_task_1', 'manual__2024-04-15T17:37:15.327473+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/preprocessing_dag.py', '--cfg-path', '/var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T/tmpfr8v15gn']
+[2024-04-15T13:37:27.947-0400] {standard_task_runner.py:91} INFO - Job 40: Subtask python_task_1
+[2024-04-15T13:37:27.964-0400] {task_command.py:426} INFO - Running <TaskInstance: preprocessing_dag.python_task_1 manual__2024-04-15T17:37:15.327473+00:00 [running]> on host manis-macbook-air.local
+[2024-04-15T13:37:27.986-0400] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='preprocessing_dag' AIRFLOW_CTX_TASK_ID='python_task_1' AIRFLOW_CTX_EXECUTION_DATE='2024-04-15T17:37:15.327473+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-15T17:37:15.327473+00:00'
+[2024-04-15T13:37:27.987-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-15T13:38:03.868-0400] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-04-15T13:38:03.876-0400] {process_utils.py:132} INFO - Sending 15 to group 48009. PIDs of all processes in the group: [48009]
+[2024-04-15T13:38:03.876-0400] {process_utils.py:87} INFO - Sending the signal 15 to group 48009
+[2024-04-15T13:38:07.168-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T13:38:07.182-0400] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: preprocessing_dag.python_task_1 manual__2024-04-15T17:37:15.327473+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-04-15T13:38:07.182-0400] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: preprocessing_dag.python_task_1 manual__2024-04-15T17:37:15.327473+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-04-15T13:38:07.184-0400] {local_task_job_runner.py:163} INFO - Task is not able to be run

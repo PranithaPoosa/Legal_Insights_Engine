@@ -1,0 +1,38 @@
+[2024-04-15T13:45:46.221-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T13:45:46.245-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_dag.bash_task manual__2024-04-15T17:45:21.892558+00:00 [queued]>
+[2024-04-15T13:45:46.248-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_dag.bash_task manual__2024-04-15T17:45:21.892558+00:00 [queued]>
+[2024-04-15T13:45:46.248-0400] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-15T13:45:46.255-0400] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): bash_task> on 2024-04-15 17:45:21.892558+00:00
+[2024-04-15T13:45:46.261-0400] {standard_task_runner.py:63} INFO - Started process 48421 to run task
+[2024-04-15T13:45:46.266-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'preprocessing_dag', 'bash_task', 'manual__2024-04-15T17:45:21.892558+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/preprocessing_dag.py', '--cfg-path', '/var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T/tmp0tv6obv0']
+[2024-04-15T13:45:46.269-0400] {standard_task_runner.py:91} INFO - Job 72: Subtask bash_task
+[2024-04-15T13:45:46.308-0400] {task_command.py:426} INFO - Running <TaskInstance: preprocessing_dag.bash_task manual__2024-04-15T17:45:21.892558+00:00 [running]> on host manis-macbook-air.local
+[2024-04-15T13:45:46.344-0400] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='preprocessing_dag' AIRFLOW_CTX_TASK_ID='bash_task' AIRFLOW_CTX_EXECUTION_DATE='2024-04-15T17:45:21.892558+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-15T17:45:21.892558+00:00'
+[2024-04-15T13:45:46.345-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-15T13:45:46.346-0400] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T
+[2024-04-15T13:45:46.347-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_dbt && dbt run']
+[2024-04-15T13:45:46.353-0400] {subprocess.py:86} INFO - Output:
+[2024-04-15T13:45:48.451-0400] {subprocess.py:93} INFO - [0m17:45:48  Running with dbt=1.7.11
+[2024-04-15T13:45:49.906-0400] {subprocess.py:93} INFO - [0m17:45:49  Registered adapter: snowflake=1.7.3
+[2024-04-15T13:45:50.068-0400] {subprocess.py:93} INFO - [0m17:45:50  Found 3 models, 1 source, 0 exposures, 0 metrics, 544 macros, 0 groups, 0 semantic models
+[2024-04-15T13:45:50.070-0400] {subprocess.py:93} INFO - [0m17:45:50
+[2024-04-15T13:45:51.169-0400] {subprocess.py:93} INFO - [0m17:45:51  Concurrency: 1 threads (target='dev')
+[2024-04-15T13:45:51.170-0400] {subprocess.py:93} INFO - [0m17:45:51
+[2024-04-15T13:45:51.172-0400] {subprocess.py:93} INFO - [0m17:45:51  1 of 3 START sql view model DEV.raw_data_processing ............................ [RUN]
+[2024-04-15T13:45:53.051-0400] {subprocess.py:93} INFO - [0m17:45:53  1 of 3 OK created sql view model DEV.raw_data_processing ....................... [[32mSUCCESS 1[0m in 1.88s]
+[2024-04-15T13:45:53.055-0400] {subprocess.py:93} INFO - [0m17:45:53  2 of 3 START sql view model DEV.flatten ........................................ [RUN]
+[2024-04-15T13:45:53.452-0400] {subprocess.py:93} INFO - [0m17:45:53  2 of 3 OK created sql view model DEV.flatten ................................... [[32mSUCCESS 1[0m in 0.40s]
+[2024-04-15T13:45:53.454-0400] {subprocess.py:93} INFO - [0m17:45:53  3 of 3 START sql table model DEV.aggregation ................................... [RUN]
+[2024-04-15T13:45:54.880-0400] {subprocess.py:93} INFO - [0m17:45:54  3 of 3 OK created sql table model DEV.aggregation .............................. [[32mSUCCESS 1[0m in 1.42s]
+[2024-04-15T13:45:54.883-0400] {subprocess.py:93} INFO - [0m17:45:54
+[2024-04-15T13:45:54.884-0400] {subprocess.py:93} INFO - [0m17:45:54  Finished running 2 view models, 1 table model in 0 hours 0 minutes and 4.81 seconds (4.81s).
+[2024-04-15T13:45:54.910-0400] {subprocess.py:93} INFO - [0m17:45:54
+[2024-04-15T13:45:54.910-0400] {subprocess.py:93} INFO - [0m17:45:54  [32mCompleted successfully[0m
+[2024-04-15T13:45:54.911-0400] {subprocess.py:93} INFO - [0m17:45:54
+[2024-04-15T13:45:54.911-0400] {subprocess.py:93} INFO - [0m17:45:54  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[2024-04-15T13:45:55.423-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-04-15T13:45:55.425-0400] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-15T13:45:55.443-0400] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=preprocessing_dag, task_id=bash_task, execution_date=20240415T174521, start_date=20240415T174546, end_date=20240415T174555
+[2024-04-15T13:45:55.494-0400] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-15T13:45:55.513-0400] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-15T13:45:55.514-0400] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,19 @@
+[2024-04-15T13:42:36.900-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T13:42:36.920-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_dag.python_task_1 scheduled__2024-01-02T00:00:00+00:00 [queued]>
+[2024-04-15T13:42:36.923-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_dag.python_task_1 scheduled__2024-01-02T00:00:00+00:00 [queued]>
+[2024-04-15T13:42:36.924-0400] {taskinstance.py:2303} INFO - Starting attempt 3 of 2
+[2024-04-15T13:42:36.930-0400] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): python_task_1> on 2024-01-02 00:00:00+00:00
+[2024-04-15T13:42:36.935-0400] {standard_task_runner.py:63} INFO - Started process 48284 to run task
+[2024-04-15T13:42:36.940-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'preprocessing_dag', 'python_task_1', 'scheduled__2024-01-02T00:00:00+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/preprocessing_dag.py', '--cfg-path', '/var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T/tmp394__drx']
+[2024-04-15T13:42:36.943-0400] {standard_task_runner.py:91} INFO - Job 54: Subtask python_task_1
+[2024-04-15T13:42:36.967-0400] {task_command.py:426} INFO - Running <TaskInstance: preprocessing_dag.python_task_1 scheduled__2024-01-02T00:00:00+00:00 [running]> on host manis-macbook-air.local
+[2024-04-15T13:42:37.000-0400] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='preprocessing_dag' AIRFLOW_CTX_TASK_ID='python_task_1' AIRFLOW_CTX_EXECUTION_DATE='2024-01-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-02T00:00:00+00:00'
+[2024-04-15T13:42:37.002-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-15T13:43:27.271-0400] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-04-15T13:43:27.274-0400] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-04-15T13:43:27.278-0400] {process_utils.py:132} INFO - Sending 15 to group 48284. PIDs of all processes in the group: [48284]
+[2024-04-15T13:43:27.278-0400] {process_utils.py:87} INFO - Sending the signal 15 to group 48284
+[2024-04-15T13:44:27.303-0400] {process_utils.py:150} WARNING - process psutil.Process(pid=48284, name='Python', status='running', started='13:42:36') did not respond to SIGTERM. Trying SIGKILL
+[2024-04-15T13:44:27.308-0400] {process_utils.py:87} INFO - Sending the signal 9 to group 48284
+[2024-04-15T13:44:27.317-0400] {process_utils.py:80} INFO - Process psutil.Process(pid=48284, name='Python', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='13:42:36') (48284) terminated with exit code -9
+[2024-04-15T13:44:27.318-0400] {standard_task_runner.py:178} ERROR - Job 54 was killed before it finished (likely due to running out of memory)

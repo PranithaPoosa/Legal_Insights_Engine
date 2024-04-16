@@ -1,0 +1,256 @@
+[2024-04-15T13:20:10.936-0400] {processor.py:161} INFO - Started process (PID=46941) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:20:10.936-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:20:10.937-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:20:10.937-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:20:10.938-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:20:10.937-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 34
+    python_callable=,
+                    ^
+SyntaxError: invalid syntax
+[2024-04-15T13:20:10.938-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:20:10.994-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.060 seconds
+[2024-04-15T13:21:23.064-0400] {processor.py:161} INFO - Started process (PID=47002) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:21:23.067-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:21:23.068-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:21:23.068-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:21:23.073-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:21:23.072-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 34
+    python_callable=,
+                    ^
+SyntaxError: invalid syntax
+[2024-04-15T13:21:23.073-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:21:23.260-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.200 seconds
+[2024-04-15T13:22:33.411-0400] {processor.py:161} INFO - Started process (PID=47060) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:22:33.411-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:22:33.412-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:22:33.412-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:22:33.413-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:22:33.412-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 34
+    python_callable=,
+                    ^
+SyntaxError: invalid syntax
+[2024-04-15T13:22:33.413-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:22:33.484-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.075 seconds
+[2024-04-15T13:23:44.104-0400] {processor.py:161} INFO - Started process (PID=47130) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:23:44.106-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:23:44.106-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:23:44.106-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:23:44.191-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:23:44.187-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 5, in <module>
+    import temp0
+ModuleNotFoundError: No module named 'temp0'
+[2024-04-15T13:23:44.192-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:23:44.235-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.133 seconds
+[2024-04-15T13:24:52.040-0400] {processor.py:161} INFO - Started process (PID=47202) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:24:52.041-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:24:52.041-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:24:52.041-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:24:52.081-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:24:52.080-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 5, in <module>
+    import temp0
+ModuleNotFoundError: No module named 'temp0'
+[2024-04-15T13:24:52.081-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:24:52.109-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.070 seconds
+[2024-04-15T13:26:04.166-0400] {processor.py:161} INFO - Started process (PID=47275) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:26:04.166-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:26:04.167-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:26:04.167-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:26:04.205-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:26:04.204-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 5, in <module>
+    from cap_airflow.dags import temp0
+ModuleNotFoundError: No module named 'cap_airflow'
+[2024-04-15T13:26:04.205-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:26:04.240-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.076 seconds
+[2024-04-15T13:27:22.617-0400] {processor.py:161} INFO - Started process (PID=47344) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:27:22.618-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:27:22.618-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:27:22.618-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:27:22.656-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:27:22.655-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 6, in <module>
+    from cap_airflow.dags import temp0
+ModuleNotFoundError: No module named 'cap_airflow'
+[2024-04-15T13:27:22.656-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:27:22.683-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.067 seconds
+[2024-04-15T13:28:40.893-0400] {processor.py:161} INFO - Started process (PID=47408) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:28:40.894-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:28:40.894-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:28:40.894-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:28:40.939-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:28:40.938-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 6, in <module>
+    from cap_airflow.dags import temp0
+ModuleNotFoundError: No module named 'cap_airflow'
+[2024-04-15T13:28:40.939-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:28:40.966-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.074 seconds
+[2024-04-15T13:29:53.707-0400] {processor.py:161} INFO - Started process (PID=47491) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:29:53.708-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:29:53.708-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:29:53.708-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:29:53.765-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:29:53.764-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 6, in <module>
+    from cap_airflow.dags import temp0
+ModuleNotFoundError: No module named 'cap_airflow'
+[2024-04-15T13:29:53.765-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:29:53.797-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.093 seconds
+[2024-04-15T13:30:55.872-0400] {processor.py:161} INFO - Started process (PID=47568) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:30:55.873-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:30:55.873-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:30:55.873-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:30:55.909-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:30:55.908-0400] {dagbag.py:350} ERROR - Failed to import: /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+Traceback (most recent call last):
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py", line 5, in <module>
+    from plugins import temp0
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-15T13:30:55.909-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:30:55.936-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.065 seconds
+[2024-04-15T13:32:38.645-0400] {processor.py:161} INFO - Started process (PID=47673) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:32:38.646-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:32:38.646-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:32:38.646-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:32:38.685-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:32:38.692-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:32:38.692-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T13:32:38.722-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:32:38.722-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-04-15T13:32:38.728-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.084 seconds
+[2024-04-15T13:36:45.452-0400] {processor.py:161} INFO - Started process (PID=47961) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:36:45.453-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:36:45.454-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:36:45.454-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:36:45.525-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:36:45.618-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:36:45.618-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T13:36:45.635-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.184 seconds
+[2024-04-15T13:38:16.149-0400] {processor.py:161} INFO - Started process (PID=48043) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:38:16.150-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:38:16.150-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:38:16.150-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:38:16.195-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:38:16.204-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:38:16.204-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T13:38:16.245-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.097 seconds
+[2024-04-15T13:41:10.600-0400] {processor.py:161} INFO - Started process (PID=48225) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:41:10.601-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:41:10.602-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:41:10.602-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:41:10.669-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:41:10.683-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:41:10.683-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T13:41:10.748-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.151 seconds
+[2024-04-15T13:42:24.116-0400] {processor.py:161} INFO - Started process (PID=48264) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:42:24.117-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:42:24.118-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:42:24.118-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:42:24.178-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:42:24.191-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:42:24.191-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T13:42:24.253-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.138 seconds
+[2024-04-15T13:45:03.207-0400] {processor.py:161} INFO - Started process (PID=48354) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:45:03.209-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:45:03.209-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:45:03.209-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:45:03.268-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:45:03.410-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:45:03.410-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T13:45:03.429-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.224 seconds
+[2024-04-15T13:53:01.041-0400] {processor.py:161} INFO - Started process (PID=48623) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:53:01.042-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T13:53:01.042-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:53:01.042-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:53:01.098-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T13:53:01.151-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:53:01.151-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T13:53:01.161-0400] {logging_mixin.py:188} INFO - [2024-04-15T13:53:01.161-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-01-16 00:00:00+00:00, run_after=2024-01-17 00:00:00+00:00
+[2024-04-15T13:53:01.170-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.132 seconds
+[2024-04-15T18:54:20.117-0400] {processor.py:161} INFO - Started process (PID=49021) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T18:54:20.120-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T18:54:20.121-0400] {logging_mixin.py:188} INFO - [2024-04-15T18:54:20.120-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T18:54:20.179-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T18:54:20.190-0400] {logging_mixin.py:188} INFO - [2024-04-15T18:54:20.190-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T18:54:20.236-0400] {logging_mixin.py:188} INFO - [2024-04-15T18:54:20.235-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-01-17 00:00:00+00:00, run_after=2024-01-18 00:00:00+00:00
+[2024-04-15T18:54:20.255-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.139 seconds
+[2024-04-15T19:02:34.087-0400] {processor.py:161} INFO - Started process (PID=49371) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:02:34.089-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:02:34.089-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:02:34.089-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:02:34.152-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:02:34.167-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:02:34.167-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:02:34.226-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:02:34.226-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-01-18 00:00:00+00:00, run_after=2024-01-19 00:00:00+00:00
+[2024-04-15T19:02:34.237-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.153 seconds
+[2024-04-15T19:04:28.438-0400] {processor.py:161} INFO - Started process (PID=49424) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:04:28.440-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:04:28.441-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:04:28.440-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:04:28.499-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:04:28.645-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:04:28.645-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:04:28.655-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:04:28.654-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-01-19 00:00:00+00:00, run_after=2024-01-20 00:00:00+00:00
+[2024-04-15T19:04:28.666-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.230 seconds
+[2024-04-15T19:48:33.333-0400] {processor.py:161} INFO - Started process (PID=50167) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:48:33.335-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:48:33.336-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:48:33.336-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:48:33.423-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:48:33.439-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:48:33.439-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:48:33.508-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:48:33.508-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-02-19 00:00:00+00:00, run_after=2024-02-20 00:00:00+00:00
+[2024-04-15T19:48:33.522-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.191 seconds
+[2024-04-15T19:50:19.965-0400] {processor.py:161} INFO - Started process (PID=50241) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:50:19.966-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:50:19.967-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:50:19.967-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:50:20.062-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:50:20.250-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:50:20.249-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:50:20.261-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:50:20.261-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-02-20 00:00:00+00:00, run_after=2024-02-21 00:00:00+00:00
+[2024-04-15T19:50:20.273-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.315 seconds
+[2024-04-15T19:53:19.761-0400] {processor.py:161} INFO - Started process (PID=52137) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:53:19.762-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:53:19.762-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:53:19.762-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:53:19.844-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:53:19.942-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:53:19.942-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:53:19.959-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:53:19.959-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-02-22 00:00:00+00:00, run_after=2024-02-23 00:00:00+00:00
+[2024-04-15T19:53:19.975-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.215 seconds
+[2024-04-15T19:53:55.069-0400] {processor.py:161} INFO - Started process (PID=52187) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:53:55.070-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:53:55.071-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:53:55.071-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:53:55.194-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:53:55.309-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:53:55.309-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:53:55.321-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:53:55.321-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-02-24 00:00:00+00:00, run_after=2024-02-25 00:00:00+00:00
+[2024-04-15T19:53:55.337-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.270 seconds
+[2024-04-15T19:54:49.390-0400] {processor.py:161} INFO - Started process (PID=52217) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:54:49.391-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:54:49.392-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:54:49.392-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:54:49.602-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:54:49.882-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:54:49.882-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:54:49.910-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:54:49.909-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-02-25 00:00:00+00:00, run_after=2024-02-26 00:00:00+00:00
+[2024-04-15T19:54:49.940-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.555 seconds
+[2024-04-15T19:55:30.206-0400] {processor.py:161} INFO - Started process (PID=52287) to work on /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:55:30.207-0400] {processor.py:830} INFO - Processing file /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py for tasks to queue
+[2024-04-15T19:55:30.208-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:55:30.208-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:55:30.275-0400] {processor.py:840} INFO - DAG(s) 'preprocessing_dag' retrieved from /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py
+[2024-04-15T19:55:30.360-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:55:30.360-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-15T19:55:30.372-0400] {logging_mixin.py:188} INFO - [2024-04-15T19:55:30.371-0400] {dag.py:3954} INFO - Setting next_dagrun for preprocessing_dag to 2024-02-28 00:00:00+00:00, run_after=2024-02-29 00:00:00+00:00
+[2024-04-15T19:55:30.386-0400] {processor.py:183} INFO - Processing /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/cap_airflow/dags/preprocessing_dag.py took 0.182 seconds

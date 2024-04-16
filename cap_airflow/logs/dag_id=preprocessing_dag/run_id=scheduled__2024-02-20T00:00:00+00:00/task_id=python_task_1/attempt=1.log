@@ -1,0 +1,20 @@
+[2024-04-15T19:51:00.717-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T19:51:00.742-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_dag.python_task_1 scheduled__2024-02-20T00:00:00+00:00 [queued]>
+[2024-04-15T19:51:00.748-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_dag.python_task_1 scheduled__2024-02-20T00:00:00+00:00 [queued]>
+[2024-04-15T19:51:00.748-0400] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-15T19:51:00.759-0400] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): python_task_1> on 2024-02-20 00:00:00+00:00
+[2024-04-15T19:51:00.765-0400] {standard_task_runner.py:63} INFO - Started process 50294 to run task
+[2024-04-15T19:51:00.771-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'preprocessing_dag', 'python_task_1', 'scheduled__2024-02-20T00:00:00+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/preprocessing_dag.py', '--cfg-path', '/var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T/tmpdrpxvxh9']
+[2024-04-15T19:51:00.774-0400] {standard_task_runner.py:91} INFO - Job 156: Subtask python_task_1
+[2024-04-15T19:51:00.827-0400] {task_command.py:426} INFO - Running <TaskInstance: preprocessing_dag.python_task_1 scheduled__2024-02-20T00:00:00+00:00 [running]> on host manis-macbook-air.local
+[2024-04-15T19:51:00.901-0400] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='preprocessing_dag' AIRFLOW_CTX_TASK_ID='python_task_1' AIRFLOW_CTX_EXECUTION_DATE='2024-02-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-20T00:00:00+00:00'
+[2024-04-15T19:51:00.903-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-15T19:51:00.915-0400] {logging_mixin.py:188} INFO - hi
+[2024-04-15T19:52:11.881-0400] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2024-04-15T19:52:11.884-0400] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-04-15T19:52:11.897-0400] {process_utils.py:132} INFO - Sending 15 to group 50294. PIDs of all processes in the group: [50294]
+[2024-04-15T19:52:11.898-0400] {process_utils.py:87} INFO - Sending the signal 15 to group 50294
+[2024-04-15T19:53:11.908-0400] {process_utils.py:150} WARNING - process psutil.Process(pid=50294, name='Python', status='running', started='19:51:00') did not respond to SIGTERM. Trying SIGKILL
+[2024-04-15T19:53:11.922-0400] {process_utils.py:87} INFO - Sending the signal 9 to group 50294
+[2024-04-15T19:53:11.931-0400] {process_utils.py:80} INFO - Process psutil.Process(pid=50294, name='Python', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='19:51:00') (50294) terminated with exit code -9
+[2024-04-15T19:53:11.932-0400] {standard_task_runner.py:178} ERROR - Job 156 was killed before it finished (likely due to running out of memory)

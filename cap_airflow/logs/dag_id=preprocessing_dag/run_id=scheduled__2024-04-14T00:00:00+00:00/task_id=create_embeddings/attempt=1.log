@@ -1,0 +1,19 @@
+[2024-04-15T21:09:25.280-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T21:09:25.286-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocessing_dag.create_embeddings scheduled__2024-04-14T00:00:00+00:00 [queued]>
+[2024-04-15T21:09:25.290-0400] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocessing_dag.create_embeddings scheduled__2024-04-14T00:00:00+00:00 [queued]>
+[2024-04-15T21:09:25.290-0400] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-15T21:09:25.297-0400] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): create_embeddings> on 2024-04-14 00:00:00+00:00
+[2024-04-15T21:09:25.301-0400] {standard_task_runner.py:63} INFO - Started process 54082 to run task
+[2024-04-15T21:09:25.306-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'preprocessing_dag', 'create_embeddings', 'scheduled__2024-04-14T00:00:00+00:00', '--job-id', '278', '--raw', '--subdir', 'DAGS_FOLDER/preprocessing_dag.py', '--cfg-path', '/var/folders/rf/bv8hf2w15f1f30n5rv6mfypr0000gn/T/tmpfs7p0ssl']
+[2024-04-15T21:09:25.307-0400] {standard_task_runner.py:91} INFO - Job 278: Subtask create_embeddings
+[2024-04-15T21:09:25.342-0400] {task_command.py:426} INFO - Running <TaskInstance: preprocessing_dag.create_embeddings scheduled__2024-04-14T00:00:00+00:00 [running]> on host manis-macbook-air.local
+[2024-04-15T21:09:25.381-0400] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='preprocessing_dag' AIRFLOW_CTX_TASK_ID='create_embeddings' AIRFLOW_CTX_EXECUTION_DATE='2024-04-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-14T00:00:00+00:00'
+[2024-04-15T21:09:25.382-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-15T21:09:25.531-0400] {logging_mixin.py:188} WARNING - /Users/manideepakreddyaila/Desktop/projects/Legal_Insights_Engine/.venv/lib/python3.11/site-packages/langchain_core/_api/deprecation.py:117 LangChainDeprecationWarning: The class `langchain_community.embeddings.openai.OpenAIEmbeddings` was deprecated in langchain-community 0.0.9 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import OpenAIEmbeddings`.
+[2024-04-15T21:09:27.012-0400] {_client.py:1026} INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-04-15T21:09:27.427-0400] {python.py:237} INFO - Done. Returned value was: None
+[2024-04-15T21:09:27.428-0400] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-15T21:09:27.435-0400] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=preprocessing_dag, task_id=create_embeddings, execution_date=20240414T000000, start_date=20240416T010925, end_date=20240416T010927
+[2024-04-15T21:09:27.461-0400] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-15T21:09:27.474-0400] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-15T21:09:27.475-0400] {local_task_job_runner.py:222} INFO - ::endgroup::
