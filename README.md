@@ -37,7 +37,8 @@ Legal research and decision-making can be complex and time-consuming, often requ
   │   │── models            
   │   │── tests
   │   │── logs            
-  │   └── dbt_project.yaml     
+  │   └── dbt_project.yaml
+  ├── .gitignore   
   ├── README.md                         # ReadMe file
   └── requirements.txt                # Requirements for the project
 ```
