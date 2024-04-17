@@ -17,6 +17,24 @@ Legal research and decision-making can be complex and time-consuming, often requ
 
 ## Project Structure
 
+```
+  ├── assets           # images used for readme
+  │   └── ... .png
+  ├── architecture-diagram
+  │   ├── architecture_diagram.py          # architectural diagram python code    
+  │   └── arts_recommendation_system.png   # architectural diagram png
+  ├── dashboard
+  │   ├── home.py                     # code to user dashboard
+  │   └── display_images.py           # code to display user selected image, similar images and chatbot
+  ├── fastapi
+  │   └── repository.py               # application code for Fastapi
+  ├── data
+  │   ├── Pinecone_Embeddings.ipynb   # notebook to generate embeddings for images and add it to Pinecone Db
+  │   └── imagesinfo.csv              # data csv
+  ├── main.py                         # code for streamlit application (Sign up, Sign in, Logout)
+  └── requirements.txt                # libraries required to build the application
+```
+
 ## How to run it locally
 
 
