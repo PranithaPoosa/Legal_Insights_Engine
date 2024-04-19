@@ -7,14 +7,17 @@
 
 ## Links
 
-[![Streamlit](https://img.shields.io/badge/Streamlit%20Application-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](http://localhost:8501/)  [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)](http://localhost:8000/docs)  [![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1K5KXsSgMQ-jTM3fTJxYQWo1an-y66M_F1NfkNllJC_g#0)  [![Application Demo](https://img.shields.io/badge/Demo_Link-808080?style=for-the-badge&logo=YouTube&logoColor=white)](https://drive.google.com/file/d/170hl_0gA1Rog9UF96av5BJ_DmRD4bzvq/view?usp=drivesdk)
+[![Streamlit](https://img.shields.io/badge/Streamlit%20Application-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](http://localhost:8501/)  [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)](http://localhost:8000/docs)  [![Documentation](https://img.shields.io/badge/Documentation-4285F4?style=for-the-badge&logo=Google&logoColor=white)](https://docs.google.com/document/d/1wHwd04DgPQCn4MabcBoIwR_CIg079P4PwEfDsXIjsVQ/edit)  [![Application Demo](https://img.shields.io/badge/Application_Demo-orange?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/embed/ywKlXsZLMv4)  [![Blog Post](https://img.shields.io/badge/Blog_Post-black?style=for-the-badge&logo=Medium&logoColor=white)](https://www.youtube.com/embed/ywKlXsZLMv4)
 
 ## Overview
 Legal research and decision-making can be complex and time-consuming, often requiring personalized and scenario specific insights tailored to individual preferences. The Legal Insights Engine project endeavors to address this challenge by developing an innovative platform that leverages advanced technologies to provide contextualized semantic search and graph-based recommendations. Users can interact with the system to access comprehensive legal knowledge, analyze historical legal cases, and make informed decisions.
 
-## Business Use Case
-
-## Detailed Approach
+## Objectives
+- To develop a scalable and user-friendly platform for analysing and understanding legal case data.
+- To create a knowledge graph representing relationships between all the case attributes.
+- To provide visualizations and reports for exploring legal cases distribution as per categories and courts.
+- To integrate a chatbot with retrieval augmented generation (RAG) capabilities for answering questions about possible outcomes, case details.
+- To automate the end-to-end workflow using Apache Airflow for enhanced efficiency and scalability.
 
 ## Technologies Used
 
