@@ -1,6 +1,6 @@
 # Legal_Insights_Engine
 
-![Legal Insights Engine](https://github.com/PranithaPoosa/Legal_Insights_Engine/blob/main/LIE_image.png)
+![Legal Insights Engine](https://github.com/PranithaPoosa/Legal_Insights_Engine/blob/main/assets/LIE_image.png)
 
 ##### Image Source: [LexRatio]
 ----- 
@@ -17,6 +17,8 @@ Legal research and decision-making can be complex and time-consuming, often requ
 ## Technologies Used
 
 ## Architecture Diagram
+
+![Legal Insights Engine](https://github.com/PranithaPoosa/Legal_Insights_Engine/blob/main/architecture_diagram/LIE_arch_diag.jpg)
 
 ## Project Structure
 
