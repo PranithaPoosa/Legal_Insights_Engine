@@ -5,7 +5,9 @@
 ##### Image Source: [LexRatio]
 ----- 
 
-[![Streamlit](https://img.shields.io/badge/Streamlit%20Application-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](http://localhost:8501/)  [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)](http://localhost:8000/docs)  [![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1K5KXsSgMQ-jTM3fTJxYQWo1an-y66M_F1NfkNllJC_g#0)  [![Demo Link](https://img.shields.io/badge/Demo_Link-808080?style=for-the-badge&logo=YouTube&logoColor=white)](https://drive.google.com/file/d/170hl_0gA1Rog9UF96av5BJ_DmRD4bzvq/view?usp=drivesdk)
+## Links
+
+[![Streamlit](https://img.shields.io/badge/Streamlit%20Application-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](http://localhost:8501/)  [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)](http://localhost:8000/docs)  [![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1K5KXsSgMQ-jTM3fTJxYQWo1an-y66M_F1NfkNllJC_g#0)  [![Application Demo](https://img.shields.io/badge/Demo_Link-808080?style=for-the-badge&logo=YouTube&logoColor=white)](https://drive.google.com/file/d/170hl_0gA1Rog9UF96av5BJ_DmRD4bzvq/view?usp=drivesdk)
 
 ## Overview
 Legal research and decision-making can be complex and time-consuming, often requiring personalized and scenario specific insights tailored to individual preferences. The Legal Insights Engine project endeavors to address this challenge by developing an innovative platform that leverages advanced technologies to provide contextualized semantic search and graph-based recommendations. Users can interact with the system to access comprehensive legal knowledge, analyze historical legal cases, and make informed decisions.
@@ -15,6 +17,14 @@ Legal research and decision-making can be complex and time-consuming, often requ
 ## Detailed Approach
 
 ## Technologies Used
+
+![Python](https://img.shields.io/badge/python-grey?style=for-the-badge&logo=python&logoColor=ffdd54)
+![](https://img.shields.io/badge/FastAPI-4285F4?style=for-the-badge&logo=fastapi&logoColor=white)
+![](https://img.shields.io/badge/Neo4J-orange?style=for-the-badge&logo=neo4j&logoColor=white)
+![](https://img.shields.io/badge/Apache_Airflow-green?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![](https://img.shields.io/badge/Snowflake-blue?style=for-the-badge&logo=Snowflake&logoColor=white)
+![](https://img.shields.io/badge/dbt-yellow?style=for-the-badge&logo=Dbt&logoColor=white)
 
 ## Architecture Diagram
 
