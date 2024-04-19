@@ -62,6 +62,51 @@ Legal research and decision-making can be complex and time-consuming, often requ
 ```
 
 ## How to run it locally
+### Prerequisties
+> [!IMPORTANT]
+> Install Airflow Standalone and Neo4J Desktop
+> Run Neo4j and create a database
+> Copy and run the dag to create graph in neo4j
+
+### Streamlit
+
+Step 1 -  Clone the repository on your local system using the below command and Change the directory to streamlit:
+```bash
+git clone https://github.com/PranithaPoosa/Legal_Insights_Engine
+```
+
+Step 2 - Create and activate Virtual Environment
+```bash
+python -m venv .venv
+```
+```bash
+source .venv/bin/activate
+```
+
+Step 3 - Install all the requirements by navigating to the streamlit folder and enter the command:
+```bash
+pip install -r requirements.txt
+```
+
+Step 4 - Run the streamlit application using the below command
+```bash
+streamlit run src/Home.py
+```
+
+Step 5 - The Application will be up on ```http://localhost:8501```
+
+## FastAPI
+
+Step 1 - Open an other tab in the terminal and activate the virtual environment created above
+
+Step 2 - Navigate to backend folder and the Run the FastAPI using the following command:
+```bash
+uvicorn main:app --reload
+```
+
+Step 3 - The Application will be up on ```http://localhost:8000/docs```
+
+
 
 
 
